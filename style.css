@@ -153,6 +153,7 @@ blockquote > p{
 /* HEADER AND NAVIGATION */
 
 #intro{
+  /*background-color: #e2e2e2;*/
   height: calc( 100vh - 48px);
 }
 
@@ -336,10 +337,6 @@ button[type="submit"]:hover {
 /* BREAKPOINTS */
 
 @media only screen and (min-width: 768px)  {
-  input,
-  textarea {
-    width: 70%;
-  }
   button[type="submit"] {
     width: 45%;
   }
@@ -361,6 +358,10 @@ button[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 1240px)  {
+  input,
+  textarea {
+    width: 80%;
+  }
   section{
     width: 60%;
   }
