@@ -183,13 +183,16 @@ blockquote > p{
 }
 
 #nav-show a{
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 5px;
   color: #fff;
 }
 
 .nav-item{
   text-align: center;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 .logo{
@@ -268,7 +271,7 @@ li {
   -webkit-background-size: 100%;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url(https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg);
+  background-image: url(http://www.thefreeicon.com/wp-media//2013/07/08/Flat_icons_PNG_icons/bullseye.png);
 }
 
 .col-1-2-1.txt {
