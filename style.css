@@ -182,6 +182,10 @@ blockquote > p{
   background-color: #5BC586;
 }
 
+#nav-show a{
+  color: #fff;
+}
+
 .nav-item{
   text-align: center;
   padding-top: 1.5em;
