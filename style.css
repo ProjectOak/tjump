@@ -176,10 +176,10 @@ blockquote > p{
 }
 
 #nav-show{
-  -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5);
-  box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.5);
-  background-color: #5BC586;
+  -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,1);
+  -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,1);
+  box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,1);
+  background-color: #333;
 }
 
 #nav-show a{
