@@ -13,8 +13,8 @@
         <script src="interact.js"></script>
     </head>
     <body>
-        <nav id="nav">
-            <div class="row" id="nav-show">
+        <nav class="row" id="nav">
+            <div id="nav-show">
                 <div class="nav-item">
                     <a href="#about">About</a>
                 </div>
@@ -33,8 +33,8 @@
             </header>
         </nav>
         <div id="intro"></div>
-        <div id="about">
-            <section class="row">
+        <div class="row" id="about">
+            <section>
                 <header class="title">
                     <h1>About</h1>
                     <p class="subtitle">Qualitative jumps in quantitative industries</p>
@@ -43,11 +43,12 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eos magnam voluptatum deserunt molestiae, voluptatibus nulla sequi. Non nulla, quis ipsum atque doloribus. Veniam repellat quam quis modi quisquam! Vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum explicabo ullam rerum voluptatem neque quis, similique veniam tempore voluptatibus accusantium dolores ipsa, provident sit consequuntur tenetur pariatur velit deleniti nesciunt.</p>
             </section>
         </div>
-        <section class="row" id="blog">
-                <header class="title">
-                    <h1>Blog</h1>
-                    <p class="subtitle">Reports, documentations and updates on experiments</p>
-                </header>
+        <div class="row" id="blog">
+        <section>
+            <header class="title">
+                <h1>Blog</h1>
+                <p class="subtitle">Reports, documentations and updates on experiments</p>
+            </header>
             <ul class="row">
                 <li class="row">
                     <div class="col-1-2-1 img">
@@ -81,28 +82,34 @@
                 </li>
             </ul>            
         </section>
-        <section class="row" id="contact">
-            <header class="title">
-                <h1>Contact</h1>
-                <p class="subtitle">Feel free to talk to us any time!</p>
-            </header>
-            <form>
-                <fieldset>
-                    <input type="text" name="name" placeholder="Name" required>
-                </fieldset>
-                <fieldset>
-                    <input type="email" name="email" placeholder="E-mail" required>
-                </fieldset>
-                <fieldset>
-                  <textarea placeholder="Type your Message Here...." tabindex="5" rows="10" required></textarea>
-                </fieldset>
-                <fieldset>
-                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                </fieldset>
-            </form>
-        </section>
+        </div>
+        <div class="row" id="contact">
+            <section>
+                <header class="title">
+                    <h1>Contact</h1>
+                    <p class="subtitle">Feel free to talk to us any time!</p>
+                </header>
+                <form>
+                    <fieldset>
+                        <input type="text" name="name" placeholder="Name" required>
+                    </fieldset>
+                    <fieldset>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                    </fieldset>
+                    <fieldset>
+                      <textarea placeholder="Type your Message Here...." tabindex="5" rows="10" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+        </div>
         <footer>
             <a href="#nav">Up & Above</a>
+<!--             <article id="social">
+                <img src="https://wasin.io/wp-content/uploads/2015/05/showimage.png" alt="">
+            </article> -->
         </footer>
     </body>
 </html>

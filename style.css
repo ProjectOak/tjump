@@ -31,16 +31,6 @@ button{
           box-sizing: inherit;
 }
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
 /* TYPOGRPHY */
 
 h1,h3{
@@ -145,36 +135,13 @@ blockquote > p{
 
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
+/* --------------------- ADDITIONAL STYLES -------------------- */
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
-/* ------------------------------------------------------------ */
-/* ------------------------------------------------------------ */
+
+
 
 /* HEADER AND NAVIGATION */
-
-#intro{
-  /*background-color: #e2e2e2;*/
-  height: calc( 100vh - 48px);
-}
-
-.banner{
-  padding-top: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
-}
-
-.banner.col-1-2{
-  width: 50%;
-}
-.title{
-  text-align: center;
-}
-
-.subtitle{
-  font-size: 1em;
-  font-style: italic;
-  line-height: 1em;
-}
 
 #nav-show{
   -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,1);
@@ -194,6 +161,26 @@ blockquote > p{
   text-align: center;
   padding-top: 3em;
   padding-bottom: 3em;
+}
+
+.banner{
+  padding-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.banner.col-1-2{
+  width: 50%;
+}
+
+.title{
+  text-align: center;
+}
+
+.subtitle{
+  font-size: 1em;
+  font-style: italic;
+  line-height: 1em;
 }
 
 .logo{
@@ -218,7 +205,7 @@ i.fa.fa-times:hover{
   color: #626262;
 }
 
-/* SECTION */
+/* --- SECTIONS --- */
 
 section{
   width: 85%;
@@ -228,18 +215,17 @@ section{
   margin-right: auto;
 }
 
-/* ABOUT */
+/* --- INTRODUCTION --- */
 
-#about{
-  padding-bottom: 0.5em;
+#intro{
+  background-color: #e2e2e2;
+  height: calc( 100vh - 48px);
 }
 
-/* BLOG */
+/* --- BLOG --- */
 
-footer{
-  font-weight: 800;
-  text-align: center;
-  margin-bottom: 3em;
+#blog{
+  /*background-color: #fff;*/
 }
 
 ul {
@@ -280,7 +266,7 @@ li {
 }
 
 
-/* CONTACT FORM */
+/* --- CONTACT FORM --- */
 
 form {
   text-align: center;
@@ -334,7 +320,38 @@ button[type="submit"]:hover {
   background-color: #525252;
 }
 
-/* BREAKPOINTS */
+/* --- FOOTER --- */
+
+footer{
+  font-weight: 800;
+  text-align: center;
+}
+
+footer a{
+  padding-bottom: 2em;
+}
+
+article{
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+article img{
+  height: 3em;
+  opacity: 0.5;
+}
+
+
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+/* ---------------------- MEDIA QUERIES ----------------------- */
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+
+/* --- MEDIUM --- */
 
 @media only screen and (min-width: 768px)  {
   button[type="submit"] {
@@ -358,6 +375,8 @@ button[type="submit"]:hover {
     width: 49.2%;
   }
 }
+
+/* --- BIG --- */
 
 @media only screen and (min-width: 1240px)  {
   input,
